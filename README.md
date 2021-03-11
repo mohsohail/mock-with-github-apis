@@ -50,13 +50,20 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ## Pages
 
 _Repos_
+
 Each new page will follow the same folder structure
 
 ```
+pages
+  - ReposPage.jsx
+  - views
+  - styles
+  - container
+
 1. ReposPage.jsx - Contains main business logic, redux state is consumed here and passed to children as props
-2. views - Contains files for between view templates
-3. styles - Contains styles for all the components
-4. containers - Contains container components
+2. views folder - Contains files for between view templates
+3. styles folder - Contains styles for all the components
+4. containers folder - Contains container components
 ```
 
 ## Components
