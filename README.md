@@ -1,6 +1,13 @@
 # Github repos api
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+When the project boots, it lists the repositories of github username 'mohsohail'
+
+Use the search input to search for a repositories by entering github username
+
+Can also use url to search for a certain user
+
+Eg: localhost:3000/facebook
 
 ## Available Scripts
 
