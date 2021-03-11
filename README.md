@@ -49,9 +49,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Pages
 
-_Repos_
+Repos
 
-Each new page will follow the same folder structure
+_Each new page will follow the same folder structure_
 
 ```
 pages
@@ -67,8 +67,6 @@ pages
 ```
 
 ## Components
-
-Custom components
 
 ```
 1. Header
