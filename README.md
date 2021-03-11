@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, to run the project:
 
 ### `yarn install`
 
@@ -23,8 +23,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ## Tech and Features
 
-I’ve built the project using react, the tech and features used to build it are
-
+```
 1. React
 2. Redux
 3. ErrorBoundary
@@ -32,8 +31,9 @@ I’ve built the project using react, the tech and features used to build it are
 5. React Router
 6. Styled Components
 7. React Testing Library
+```
 
-## The project structure is as follows
+## Project Architecture
 
 ```
   - src
@@ -49,25 +49,29 @@ I’ve built the project using react, the tech and features used to build it are
 
 ## Pages
 
-1. Repos
-   Each new page will follow the same folder structure
+_Repos_
+Each new page will follow the same folder structure
 
+```
 1. ReposPage.jsx - Contains main business logic, redux state is consumed here and passed to children as props
-1. views - Contains files for between view templates
-1. styles - Contains styles for all the components
-1. containers - Contains container components
+2. views - Contains files for between view templates
+3. styles - Contains styles for all the components
+4. containers - Contains container components
+```
 
 ## Components
 
 Custom components
 
+```
 1. Header
 2. List - uses the render prop pattern
 3. SearchBar
+```
 
 ## Testing
 
-Header and List components have unit tests defined, gives the gist of how the rest of the components would be tested
+_Header_ and _List_ components have unit tests defined, gives the gist of how the rest of the components would be tested
 
 Redux testing
 In progress..
